@@ -12,7 +12,7 @@ const Form = props => {
     }
     return (
         <div >
-            <h1>Github</h1>
+            <h1>Github API</h1>
             <form onSubmit={handleSubmit}>
             <input
             className='input'

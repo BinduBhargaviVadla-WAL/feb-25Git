@@ -13,7 +13,7 @@ function BoredApi() {
     }, []);
     return (
         <div className="borderApi">
-            <h1>Bored Api</h1>
+            <h1>Bored API</h1>
             <div className="tableApi">
                 <table>
                     <tr>

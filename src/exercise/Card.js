@@ -1,16 +1,14 @@
 const Card = props => {
     return (
-        <div style={{ margin: '1em' }}><img alt="avatar" style={{ width: '70px' }}
-            src={props.avatar_url} />
+        <div style={{ margin: '1em' }} className="card">
             <div>
-                <div style={{
-                    fontWeight:
-                        'bold'
-                }}>Name:{props.name}</div>
-                <div>Blog:{props.blog}</div>
-                <div>Company:{props.company}</div>
-                <div>Location:{props.location}</div>
-                <div>Bio:{props.bio}</div>
+                <h2>{props.name}</h2>
+                <img alt="avatar" style={{ width: '70px' }}
+            src={props.avatar_url} />
+            <h5><a href={props.blog}> {props.blog} </a></h5>
+            <h5>{props.bio}</h5>
+            <h5>{props.company}</h5>
+            <h5>{props.location}</h5>
             </div>
         </div>
     )
