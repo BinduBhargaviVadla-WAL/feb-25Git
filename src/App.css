@@ -1,0 +1,50 @@
+.App{
+  text-align: center;
+}
+.tableApi{
+  border: 2px solid rgb(245, 231, 231);
+  padding: 0 50px;
+  width: fit-content;
+  margin: auto;
+  text-align: left;
+  border-radius: 10px;
+  color: white;
+}
+.borderApi{
+  /* background: linear-gradient(60deg,pink,rgb(66, 11, 73)); */
+  background: linear-gradient(90deg,#d663a8, #4a1268);
+  padding: 10px;
+}
+.text-dark{
+  color: black;
+  font-size: 18px;
+}
+.apiHeader{
+  color:gold;
+  text-decoration: underline;
+  font-size: 18px;
+  text-align: center;
+}
+.input{
+  width: 40%;
+  padding:10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  
+}
+.gitApi{
+  text-align: center;
+  background: linear-gradient(45deg, rgb(130, 204, 238), rgb(216, 155, 43));
+  
+}
+.btn{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background:radial-gradient(circle,rgb(0, 110, 255),rgb(0, 34, 128));
+  color: white;
+  border:2px solid blue;
+  margin: 10px;
+}
+button:hover{
+  background-color: rgb(178, 137, 216);
+}
